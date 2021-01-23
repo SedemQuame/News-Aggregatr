@@ -1,0 +1,15 @@
+.App {
+}
+
+.Header{
+    background-color: #222f3e;
+    color: #ffffff;
+    height: 45vh;
+    width: 100vw;
+    padding-top: 1vh;
+    margin-bottom: 2vh;
+}
+
+.storyImage{
+    height: 35vh;
+}

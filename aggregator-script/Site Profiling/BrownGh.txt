@@ -1,0 +1,36 @@
+Brown Gh
+
+Getting navigation bar links ..
+-----------------------------------
+"Get document with id: #menu-main-navigation-1
+"
+* move to li => a.
+* get href value and name of link
+
+Getting article information ...
+-----------------------------------
+When page loads, search for all elements with class ".td-module-image"
+* make a request to the anchor element.
+* scrap the contents of the blog using the, the various methods given for page scraping.
+
+Getting Blog Information
+-----------------------------------
+*to get the title of the blog, look for the element of "header".
+or
+*search for the first element with class ".td-post-title", then interate through the various elements to get the needed data.
+
+** Get image, url download it and store int a given folder for upload to self server.
+*change file names to and store the new name, of the file, then store the image location in a simple db.
+
+to get main image ... find div with class ".td-post-featured-image",
+for sub-images get all elements with the class "img-wrapper". 
+for blog text find all paragraph elements "<p>" in div with class "td-post-content".
+Return Control to calling function to step to the next element, on the page.
+
+Getting Paginated Links, available on a page.
+---------------------------------------------
+Find link of next paginated page, on the main page by converting the link number to integer and adding one, or we can just.
+
+Or get paginated set of links, using 
+
+
