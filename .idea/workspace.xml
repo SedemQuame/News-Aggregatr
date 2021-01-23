@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42c47bd3-814e-439b-b8cc-e2474f6e9b62" name="Default Changelist" comment="" />
+    <list default="true" id="42c47bd3-814e-439b-b8cc-e2474f6e9b62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-script/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-script/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-script/Site Profiling/BrownGh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-script/site-profiles/BrownGh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-script/Site Profiling/EOnlineGh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-script/site-profiles/EOnlineGh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-script/Site Profiling/Fifty7Tech.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-script/site-profiles/Fifty7Tech.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-script/Site Profiling/GhHeadLines.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-script/site-profiles/GhHeadLines.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-script/Site Profiling/Mfidie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-script/site-profiles/Mfidie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-script/Site Profiling/PeacefmOnline.txt" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-script/site-profiles/PeacefmOnline.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/aggregator" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1n9fCsqTWnb7Raah6OW0twb2fAU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,7 +70,7 @@
       <updated>1610807104407</updated>
       <workItem from="1610807133779" duration="8548000" />
       <workItem from="1610894131417" duration="1191000" />
-      <workItem from="1611391682251" duration="3885000" />
+      <workItem from="1611391682251" duration="5490000" />
     </task>
     <servers />
   </component>

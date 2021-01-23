@@ -85,3 +85,18 @@ date published, article author, category, images, story paragraphs.
       ]  
    }
 }
+
+Proposed Tech To Use.
+* Use python to scrape data, from the various sites, use selenium for ajax-based sites and beautiful soup for
+normal sites.
+  
+* Store data using firebase, and access it on a react-based user interface.
+
+* Storing the web crawlers, can be done on either firebase-hosting, heroku or aws.
+
+* Since there are multiple sites to scrape, there are two approaches to solving the problem.
+   1. Creating multiple scrapers, one for each of the sites to get data from, with all scrapers pushing a centralised database.
+   
+   2. Creating a hybrid scraper, that would be capable of scraping, the various sites and pushing data to a centralised database.
+      NB: ```This would be a bit difficult owing to how various sites store their data.
+          (This can be referred to in the <b>sites-profiles</b> folder.)```
