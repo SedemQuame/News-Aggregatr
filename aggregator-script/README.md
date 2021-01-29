@@ -8,7 +8,7 @@ Including the following, along with the sub-categories if any exist.
     * Music
 
 2. Sports
-    * Football
+    * Football 
     * Basketball
 
 3. Lifestyle
@@ -31,19 +31,19 @@ Including the following, along with the sub-categories if any exist.
 
 Below is a list of sites that data will be scraped from, and side note on what this sites specialise in and the techniques for scraping them.
 
-1. Browngh.com
+1. Browngh.com [*]
    * ``` Browngh displays news in a rather friendly an interesting way, with a broad spectrum of news, on various subjects, this site actually looks abit easy to extract data from with a simple crawler.```
 
-2. Peacefmonline.com
+2. Peacefmonline.com [*] (Code fixes need to be made)
     * ``` Peace fm online, online news publishing version of for the peace fm radio station, provides very interesting frequently and timely. With various assets including videos and images, that may quickly become and hussle to store. Their archives of past events and timelines of daily events may prove to be very essential. Their lazy loading sytle of presenting data, might be a problem, looks like site data is loaded using ajax. This might require using something like selenium to get the needed data.```
 
-3. EOnlineGh.com
-    * ``` EOnlineGh, seems to be concerned with celebrity and entertainment news. They keep an archive of information regarding relevant celebrities, they however don't display alot of the information at once. Which could lead to jumping between a dozen pages to get any information. Pages however seem to be loaded without the use of Ajax or any javascript induced calls.```
+3. EOnlineGh.com [*]
+    * ``` EOnlineGh, seems to be concerned with celebrity and entertainment news. They keep an archive of information regarding relevant celebrities, they however don't display alot of the information at once. Which could lead to jumping between a dozen pages to get any information. Pages however seem to be loaded without the use of Ajax or any javascript induced calls. EOnline currently has 497 pages with about 8 articles on each page, hence wouls have (497 * 8) = 3976 pages. ```
 
-4. GhHeadlines.com
+4. GhHeadlines.com []
     * ``` GhHeadLines, seems like another aggregation site that primarily holds news about politics. ```
    
-5. Mfidie.com
+5. Mfidie.com []
     * ```This blog type website deals with technology.```
    
 6. fifty7tech

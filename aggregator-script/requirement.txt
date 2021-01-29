@@ -1,0 +1,7 @@
+bs4==0.0.1
+gcloud==0.18.3
+lxml==4.6.2
+pycrypto==2.6.1
+python-jwt==3.3.0
+sseclient==0.0.27
+firebase==3.0.1

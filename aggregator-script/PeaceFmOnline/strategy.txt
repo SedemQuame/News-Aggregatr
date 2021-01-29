@@ -1,0 +1,49 @@
+Peacefmonline, has a whole host of information in areas from.
+
+1. Local News
+2. Politics
+3. ShowBiz
+4. Sports
+5. Business
+6. Opinions
+7. Videos
+
+
+each one of these categories, have in them a series of 
+archives, sorted by monthly time frames
+
+archives are stored on the url
+https://peacefmonline.com/pages/<category_name>/archives/
+
+all archives can be found using the strategy stated above.
+except for the Opinions archives, which must be substituted for
+the word comments
+
+get all youtube video links and ids used from the list of videos posted.
+
+------------------------------------------------------------------------------
+
+getting the category links from nav bar
+find the 2nd element with class ".jeg_menu_style_5"
+
+find all li elements in the ul contained in the returned div
+    |_ find the "a" elements in li
+    |_ concatenate the domain name to value of "a".
+
+visit the various category sites, this can be done be concatenating
+"/archives/" to the category link.
+
+
+the scraping and storing all the links that are present in the archives
+    |_ find the first coccurence of ".tagcloud"
+    |_ find the table element in the returned string.
+    |_ return all "a" tags that can be found in tr > td.
+        |_ concatenate their value to the domain.
+
+for all returned dated archives, the data of interest is presented in a "data table"
+    |_ the said data table consists of two fundamental ways of representing data.
+        1. first version contains an archive list of relevant headlines
+        2. second version, only contains another link to a another versioned news.
+            |_ upon visiting the second-link-type, links can be scraped normally from the given data representation.
+    |_ all "final stage links", can be followed and scraped depednding on how information is presented.
+    |_ scraped data is then placed into the firebase database.

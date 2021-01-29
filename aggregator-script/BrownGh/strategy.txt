@@ -1,0 +1,10 @@
+#Get all available navigation links for categories.
+
+#menu-main-navigation-1
+    |_ get all li > a 
+        |_ store href data and link text
+
+
+to get the article information.
+find "td-post-title"
+    |_ get h1 tag with class "entry-title"
