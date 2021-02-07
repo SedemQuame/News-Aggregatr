@@ -53,18 +53,18 @@ section {
     margin-bottom:20px;
 }
 .listfeaturedtag .wrapthumbnail {
-    height:258px;
+    height:170px;
     flex:0 0 auto;
 }
 .listfeaturedtag .card {
     border-radius:2px;
-    height:260px;
+    height:170px;
     padding-left:0;
     margin-bottom:15px;
 }
 .listfeaturedtag .thumbnail {
     background-size:cover;
-    height:100%;
+    height:170px;
     display:block;
     background-position:38% 22% !important;
     background-origin:border-box!important;
@@ -72,6 +72,7 @@ section {
 }
 .listfeaturedtag .card-block {
     padding-left:0;
+    text-decoration:none;
 }
 .listfeaturedtag h2.card-title,.listrecent h2.card-title {
     font-size:1.3rem;
@@ -80,10 +81,21 @@ section {
 }
 .listfeaturedtag h2.card-title a,.listrecent h2.card-title a {
     color:rgba(0,0,0,.8);
+    text-decoration:none;
 }
 .listfeaturedtag h2.card-title a:hover,.listrecent h2.card-title a:hover {
     color:rgba(0,0,0,.6);
-    text-decoration:none;
+    /*text-decoration: underline;*/
+}
+.article-header{
+    color:rgba(0,0,0,.8);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+.article-header:hover {
+    color:rgba(0,0,0,.6);
+    text-decoration: underline;
 }
 .listfeaturedtag h4.card-text,.listrecent h4.card-text {
     color:rgba(0,0,0,.44);
@@ -333,6 +345,8 @@ ul.tags li a {
     color:rgba(0,0,0,.6);
     border-radius:3px;
     padding:5px 10px;
+    margin-right: 4px;
+    text-decoration:none;
 }
 ul.tags li a:hover {
     background:rgba(0,0,0,.07);

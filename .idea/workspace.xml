@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42c47bd3-814e-439b-b8cc-e2474f6e9b62" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-ui/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-ui/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-ui/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-ui/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aggregator-ui/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/aggregator-ui/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/aggregator" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -67,6 +71,9 @@
       <workItem from="1611391682251" duration="8225000" />
       <workItem from="1611570558739" duration="824000" />
       <workItem from="1611744088139" duration="1014000" />
+      <workItem from="1611949938281" duration="661000" />
+      <workItem from="1612008794823" duration="1808000" />
+      <workItem from="1612467314487" duration="347000" />
     </task>
     <servers />
   </component>

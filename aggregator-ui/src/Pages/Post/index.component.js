@@ -8,7 +8,7 @@ import RelatedPosts from './../../Component/RelatedPosts/index.component';
 import AlertBar from './../../Component/AlertBar/index.component';
 import Footer from './../../Component/Footer/index.component';
 
-export default () => {
+export default (props) => {
     return (
         <>
             <div className="container">
@@ -17,9 +17,9 @@ export default () => {
                         <Socials/>
                     </div>
                     <div className="col-md-8 col-md-offset-2 col-xs-12">
-                        <MainHeading/>
-                        <BannerImage/>
-                        <Paragraph/>
+                        <MainHeading title={props.location.state.article.header}/>
+                        <BannerImage image={props.location.state.article.images[0]}/>
+                        <Paragraph paragraphs={props.location.state.article.paragraphs}/>
                         <Tags/>
                     </div>
                 </div>
